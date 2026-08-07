@@ -1,6 +1,6 @@
 streamlit==1.61.1
 scikit-learn==1.6.1
-xgboost==3.3.0
+xgboost
 nltk==3.9.1
 PyPDF2==3.0.1
 python-docx==1.2.0
