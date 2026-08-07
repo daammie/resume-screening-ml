@@ -64,7 +64,7 @@ def clean_text(text):
 
 
 st.title("Resume Fit Checker")
-st.caption("Predict candidate-job fit in seconds.")
+st.markdown("*Predict candidate-job fit in seconds.*")
 st.write("Select a role, upload resume, and check fit.")
 
 role_choice = st.selectbox("Select a role", list(PRESET_JOBS.keys()) + ["Other (upload your own job description)"])
