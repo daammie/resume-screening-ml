@@ -63,9 +63,8 @@ def clean_text(text):
     return " ".join(words)
 
 
-st.title("Resume Fit Checker")
-st.markdown("<p style='margin-top: -10px; color: gray; font-size: 16px;'>Predict candidate-job fit in seconds.</p>", unsafe_allow_html=True)
-st.write("Select a role, upload resume, and check fit.")
+st.title("Resume Screening ML")
+st.write("Select a role, upload your resume, and check your fit.")
 
 role_choice = st.selectbox("Select a role", list(PRESET_JOBS.keys()) + ["Other (upload your own job description)"])
 
