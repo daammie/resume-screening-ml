@@ -49,7 +49,7 @@ The deployed app allows a user to:
 2. Upload a resume (PDF or DOCX)
 3. Receive an instant Fit / Not Fit prediction with a confidence score
 
-**Live app:** [Resume Screening ML](https://resume-screening-ml-kpet7jizl2ku6rxtbxibsy.streamlit.app/)
+**Live app:** [Resume Fit Checker](https://dammie-resume-fit-checker.streamlit.app/)
 ## Tech Stack
 
 - Python, pandas, NumPy
